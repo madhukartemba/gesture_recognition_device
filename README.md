@@ -18,14 +18,25 @@ We use the Adafruit MPU6050 library to get the output data from the IMU.
 First, we make the required gesture 15-20 times and record it.
 The output on the serial monitor looks like this:
 
- 
+ ![datapic](https://user-images.githubusercontent.com/97425422/177105462-cc709fec-1d59-440a-b5b7-686f8605cf52.PNG)
+
 
 Then copy the data to excel with each file containing one gesture information.
+
+![datacollectionpic](https://user-images.githubusercontent.com/97425422/177105494-1db035b7-417e-4107-aa39-b371b10c5e7c.PNG)
+
+ 
  
 Then arrange the data using text to columns in excel:
- 
+![dataarrange](https://user-images.githubusercontent.com/97425422/177105515-37b16767-c283-4ab8-8bc1-9f12bdd677bc.PNG)
+
+![dataarrange2](https://user-images.githubusercontent.com/97425422/177105519-3b661bca-4a60-49f4-a6bd-89279fd7e012.PNG)
+
 After arranging:
- 
+
+
+![dataarrange3](https://user-images.githubusercontent.com/97425422/177105528-c2f17d1e-fec2-4839-aa78-538898059630.PNG)
+
 Now move all the gesture files into one folder and run the converter code in python:
  
 Specify the classifier (using Random Forest) here:
@@ -38,7 +49,9 @@ Now we copy and paste it in the Arduino IDE in a file named model.h:
 
 After that in the main file we include the model:
  
+![include model](https://user-images.githubusercontent.com/97425422/177107599-b1ba464a-946e-4f9c-b23c-327b42c41f55.PNG)
 
+![include model classifier](https://user-images.githubusercontent.com/97425422/177107607-a75f2eeb-0434-42af-b7cc-d541368e655a.PNG)
 
 •	What the code does:
 The code first calibrates the IMU data.
@@ -61,11 +74,17 @@ For a wireless serial monitor we can use Telnet Stream:
 
 THE BUILD PROCESS
 1.	First we record all the part dimensions.
- 
+
+ ![dimension pic 1](https://user-images.githubusercontent.com/97425422/177107676-dabdd6c9-b1d7-47e7-b41b-8bb10e1fdae9.PNG)
+
 2.	Then we make the pinout table.
- 
+
+ ![pinout](https://user-images.githubusercontent.com/97425422/177107659-b486f856-e37d-4c33-8be9-a2773246939a.PNG)
+
 3.	After recording all the data.
- 
+
+ ![dataarrange3](https://user-images.githubusercontent.com/97425422/177107710-5dc9865c-0ff7-4e8a-87ed-d483446073b9.PNG)
+
 4.	Let us make the 3D model in Fusion 360.
 
  ![Screenshot (33)](https://user-images.githubusercontent.com/97425422/177105103-11d6c8e4-4712-4f40-bca4-d05aa5d3262e.png)
@@ -99,6 +118,7 @@ Testing the OLED display.
 
 
 4.	Testing the IR led.
+
  ![LED Test](https://user-images.githubusercontent.com/97425422/177104133-2b585124-7ddd-4392-ad64-ad144be1f5cd.PNG)
 
  
@@ -106,7 +126,6 @@ Testing the OLED display.
 Making the circuit small.
  
 ![20210327_120047](https://user-images.githubusercontent.com/97425422/177104166-a9971fdf-cf72-46d9-acd7-762fd2af065d.jpg)
-
 
  
 
@@ -130,6 +149,7 @@ Making the circuit small.
 ![20210328_122717](https://user-images.githubusercontent.com/97425422/177104605-e9b8dc5b-66a3-4baf-9b8e-936c1c613eb3.jpg)
 
  ![20210328_122723](https://user-images.githubusercontent.com/97425422/177104612-d0778f0a-be19-4bed-8315-2272fb0c2887.jpg)
+ 
 ![20210328_123549](https://user-images.githubusercontent.com/97425422/177104622-43499782-c5ed-4588-9a3b-d5d441d5935e.jpg)
 
 ![Screenshot (35)](https://user-images.githubusercontent.com/97425422/177104669-05b68f40-a340-4ccd-a291-41a6dbe2e21c.png)
