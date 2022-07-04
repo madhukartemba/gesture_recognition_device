@@ -60,15 +60,16 @@ For a wireless serial monitor we can use Telnet Stream:
  
 
 THE BUILD PROCESS
-1.	First we record all the part dimensions:
+1.	First we record all the part dimensions.
  
-2.	Then we make the pinout table:
+2.	Then we make the pinout table.
  
-3.	After recording all the data:
+3.	After recording all the data.
  
-4.	Let us make the 3D model in Fusion 360:
+4.	Let us make the 3D model in Fusion 360.
 
- 
+ ![Screenshot (33)](https://user-images.githubusercontent.com/97425422/177105103-11d6c8e4-4712-4f40-bca4-d05aa5d3262e.png)
+
 
  
 
@@ -136,15 +137,20 @@ Making the circuit small.
 Features:
 1.	Has 4 buttons, one for power and the rest for controlling the device:
  
+ ![20210412_185006](https://user-images.githubusercontent.com/97425422/177105156-1a9b4b68-04c5-4271-bd91-bcb8ad5ee5e2.jpg)
 
 2.	Two ports: One for charging and the other one for data transfer.
- 
-3.	Front mounted IR led to control televisions:
 
- 
+ ![20210412_185054](https://user-images.githubusercontent.com/97425422/177105179-e47b6840-b56a-4de2-82c2-b8bd6364c3e5.jpg)
 
-4.	Has a 128X64 pixel OLED display:
- 
+3.	Front mounted IR led to control televisions.
+
+ ![20210412_185023](https://user-images.githubusercontent.com/97425422/177105163-632fc592-b5c7-4a12-828a-3bae04da5c88.jpg)
+
+
+4.	Has a 128X64 pixel OLED display.
+ ![20210412_185035](https://user-images.githubusercontent.com/97425422/177105190-b7ac9aef-238d-4c5d-a611-a0a5df659fe3.jpg)
+
 
 •	Has a 2000mAh battery.
 •	Up to 24 hours of continuous usage.
@@ -176,12 +182,12 @@ Comparative study
 
 The creator of the ML program Eloquent had more model accuracy than my model.
 
-Kernel	C	Gamma	Degree	Vectors	Flash size	RAM (b)	Avg accuracy
-RBF	10	0.001	-	37	53 Kb	1228	99%
-Poly	100	0.001	2	12	25 Kb	1228	99%
-Poly	100	0.001	3	25	40 Kb	1228	97%
-Linear	50	-	1	40	55 Kb	1228	95%
-RBF	100	0.01	-	61	80 Kb	1228	95%
+Kernel	C	Gamma	Degree	Vectors	Flash size	RAM (b)	Avg accuracy <br>
+RBF	10	0.001	-	37	53 Kb	1228	99%<br>
+Poly	100	0.001	2	12	25 Kb	1228	99%<br>
+Poly	100	0.001	3	25	40 Kb	1228	97%<br>
+Linear	50	-	1	40	55 Kb	1228	95%<br>
+RBF	100	0.01	-	61	80 Kb	1228	95%<br>
 
 
  
