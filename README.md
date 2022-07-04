@@ -76,42 +76,62 @@ THE BUILD PROCESS
 Now let’s start the assembly and testing:
 
 1.	Attaching the IMU to the microcontroller to save space:
- 
+
+![20210325_211555](https://user-images.githubusercontent.com/97425422/177103886-692eca23-a50a-43c7-a3aa-13fbca75da96.jpg)
+
  
 Testing the OLED display.
+
 
  
 2.	3D printing the parts.
  
+  ![Screenshot (30)](https://user-images.githubusercontent.com/97425422/177103727-ee78d4ec-d6fe-4caf-8cca-94b74daef98b.png)
  
 
 3.	Joining the buttons.
  
  
- 
- 
+ ![20210327_110243](https://user-images.githubusercontent.com/97425422/177103918-1a66db74-7150-4383-80d6-928968482b04.jpg)
+
+ ![20210327_111027](https://user-images.githubusercontent.com/97425422/177103935-2e764f32-ce13-4d5b-a575-92f8566dc49a.jpg)
+
 
 4.	Testing the IR led.
+ ![LED Test](https://user-images.githubusercontent.com/97425422/177104133-2b585124-7ddd-4392-ad64-ad144be1f5cd.PNG)
+
  
 
 Making the circuit small.
  
+![20210327_120047](https://user-images.githubusercontent.com/97425422/177104166-a9971fdf-cf72-46d9-acd7-762fd2af065d.jpg)
 
 
  
 
-5.	Making the test enclosures for the OLED display.
+5.	Making the test enclosures for the OLED display and 3D printing the front cover.
+
+![20210328_104503](https://user-images.githubusercontent.com/97425422/177104516-ed3872cb-a2b8-4e55-8b66-8c352158e185.jpg)
+
+![20210327_234927](https://user-images.githubusercontent.com/97425422/177104216-ed97f249-b33a-4b63-858d-8a0f10caab1b.jpg)
  
+![20210328_013757](https://user-images.githubusercontent.com/97425422/177104234-67867e3d-79ae-4972-b746-becb746260ca.jpg)
 
 
-6.	3D printing the front cover.
- 
- 
+6. Assmebling all the parts together.
+
+ ![20210327_135714](https://user-images.githubusercontent.com/97425422/177104175-b535ca78-ed9c-45cc-86c9-d90feabf9846.jpg)
 
  
 
 7.	Final Result.
- 
+
+![20210328_122717](https://user-images.githubusercontent.com/97425422/177104605-e9b8dc5b-66a3-4baf-9b8e-936c1c613eb3.jpg)
+
+ ![20210328_122723](https://user-images.githubusercontent.com/97425422/177104612-d0778f0a-be19-4bed-8315-2272fb0c2887.jpg)
+![20210328_123549](https://user-images.githubusercontent.com/97425422/177104622-43499782-c5ed-4588-9a3b-d5d441d5935e.jpg)
+
+![Screenshot (35)](https://user-images.githubusercontent.com/97425422/177104669-05b68f40-a340-4ccd-a291-41a6dbe2e21c.png)
 
 Features:
 1.	Has 4 buttons, one for power and the rest for controlling the device:
@@ -138,9 +158,6 @@ Features:
 
 Running the ML code on the device:
  
-
- 
-
 
 Experiments
 
