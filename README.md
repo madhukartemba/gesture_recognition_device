@@ -1,4 +1,10 @@
 # gesture_recognition_device
+
+<br><br>
+Video Link: https://youtu.be/z1BC8VKuFR8
+<br><br>
+
+
 This is a handheld gesture recongnition device which uses an 6 axis MPU to capture the motion and classifies it into different gestures. It uses the Random forest classifier.
 Methodology
 
